@@ -1,0 +1,81 @@
+.home-container {
+  height: 280px;
+  color: white;
+  padding-left: 150px;
+}
+.home-content {
+}
+.home-content h2 {
+  padding: 5px;
+  padding-top: 60px;
+}
+.home-content h1 {
+  padding: 5px;
+  color: #e0b50f;
+  font-size: 25px;
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+.btn-hire {
+  background-color: #3b8ff3;
+  color: white;
+  width: 150px;
+}
+.btn-hire:hover {
+  background-color: white;
+  color: #3b8ff3;
+  width: 160px;
+  transition: 1s;
+}
+
+.btn-cv {
+  background-color: #f29f67;
+  color: white;
+  margin-left: 15px;
+}
+.btn-cv:hover {
+  background-color: #ff9f60;
+  color: white;
+  opacity: 80%;
+  transition: 1s;
+}
+
+.theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #3d3c3c;
+  margin-top: 20px;
+  text-align: center;
+  position: fixed;
+  cursor: pointer;
+  z-index: 1;
+  right: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/*============== media query mobile divice=========== */
+
+@media only screen and (max-width: 600px) {
+  .home-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    height: 240px;
+  }
+  .home-content {
+    padding-left: 30px;
+  }
+
+  .home-content h2 {
+    font-size: 24px;
+  }
+  .home-content h1 {
+    font-size: 22px;
+  }
+}

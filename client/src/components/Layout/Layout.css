@@ -1,0 +1,47 @@
+.sidebar-section {
+  display: flex;
+  background-color: rgb(0, 50, 71);
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: rgb(0, 50, 71);
+  width: 80px;
+  position: fixed;
+}
+
+.sidebar-toggle {
+  width: 150px;
+}
+.sidebar-toggle-icons {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+}
+
+.sidebar-toggle-icons p svg {
+  background-color: #f29f67;
+  color: white;
+  margin-top: 5px;
+}
+
+#dark .sidebar {
+  background-color: black;
+}
+
+#dark .sidebar-section {
+  background-color: black;
+}
+
+/*============ media quiery mobile view=================*/
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  .sidebar-section {
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.rest-page {
+  padding-left: 150px;
+}
+
+.foot {
+  padding-left: 150px;
+  color: white;
+  background-color: black;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.foot h4 {
+  padding: 5px;
+}
+
+#dark {
+  background-color: #00364d;
+  color: aliceblue;
+}
+
+/*============== media query mobile divice=========== */
+
+@media only screen and (max-width: 600px) {
+  .rest-page {
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .foot {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}

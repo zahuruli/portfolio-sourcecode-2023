@@ -1,0 +1,45 @@
+.techstack {
+  margin: 50px 0px;
+}
+
+.techstack hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+.techstack h2 {
+  color: #08726d;
+  font-weight: bold;
+}
+
+.stack-card {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border: none;
+}
+
+.stack-card:hover {
+  background-color: #138781;
+  color: white;
+  transition: 0.9s;
+}
+
+/* =================dark mode=========== */
+#dark .techstack h2 {
+  color: white;
+}
+
+/*============== media query mobile divice=========== */
+
+@media only screen and (max-width: 600px) {
+  .techstack {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .techstack hr {
+    width: 300px;
+  }
+}
